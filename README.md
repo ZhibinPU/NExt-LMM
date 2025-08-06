@@ -14,7 +14,7 @@ Zhibin Pu, Shijia Wang and Shufei Ge, "A near-exact linear mixed model for genom
 
 ## Licenses
 
-SCLMM v1.0. Copyright (c) 2024. Zhibin Pu and Shufei Ge.
+SCLMM v1.0. Copyright (c) 2025. Zhibin Pu, Shijia Wang and Shufei Ge.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
