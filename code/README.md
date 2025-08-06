@@ -1,6 +1,6 @@
-## NExt-LMM.py
+## Package NExtLMM
 
-This module contains two class: the HODLR Inverse and NExt-LMM.
+This module contains two main classes: the HODLR Inverse and NExt-LMM.
 + *class* **HInverse**(X = None, block_min = 3)
 + *class* **NExt**(Y = None, S_inv = [])
 
@@ -23,18 +23,20 @@ Some of the parameters are used in the association testing function.
 + **p: array-like of shape (1, d)**: P-values of the estimated effect sizes.
 
 
-## Demo.ipynb
-
-The file *demo.ipynb* consists of the following three steps:
-
-+ Initialize the hyperparameters: a = c = 2, b = d = 1, mu = np.array([0, 0]), G = np.array([[1, 0.5], [0.5, 1]]) and the number of MCMC iterations = 5000.
-+ Apply the linear mixed model to the pseudo-snps in *snp.txt* and corresponding traits in *trait.txt*, to obtain the coefficient $\beta$.
-+ Draw trace plots and histograms of $\beta$.
-
 ### Notes:
-For a single genotype, and a $2 \times 100$ phenotype matrix (i.e. 100 individuals with 2 QTs per individual), it would take approximately *<10 seconds* to  obtain a 5000-iterations MC chain when implemented in the following computational environment:
+For the genotype matrix $W$, and the corresponding GSM $K$ and the phenotype vector $Y$ , please implement the package as the following steps:
 
++ **Step 1**: import the package as
++ from NExtLMM import NExt
++  **Step 2**: fit the model as
++ LMM = NExt(Y, K)
++ LMM.fit(X=W)
++  **Step 3**: obtain the results as
++ p = LMM.association()
++ beta = LMM.beta
++ sigma = LMM.sigma
 
+Our testing environment is:
 **CPU:** 3.20-GHz AMD Ryzen 7 7735H; **Memory**: 16 GB RAM
 
 with following package versions.
