@@ -36,9 +36,11 @@ For the genotype matrix $W$, and the corresponding GSM $K$ and the phenotype vec
  LMM.fit(X=W)
 ```
 +  **Step 3**: obtain the results as
-++ p = LMM.association()
-++ beta = LMM.beta
-++ sigma = LMM.sigma
+  ``` Python
+  p = LMM.association()
+  beta = LMM.beta
+  sigma = LMM.sigma
+```
 
 Our testing environment is:
 **CPU:** 3.20-GHz AMD Ryzen 7 7735H; **Memory**: 16 GB RAM
