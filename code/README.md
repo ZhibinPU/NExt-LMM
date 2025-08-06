@@ -27,10 +27,14 @@ Some of the parameters are used in the association testing function.
 For the genotype matrix $W$, and the corresponding GSM $K$ and the phenotype vector $Y$ , please implement the package as the following steps:
 
 + **Step 1**: import the package as
-++ from NExtLMM import NExt
+``` Python
+   from NExtLMM import NExt
+```
 +  **Step 2**: fit the model as
-++ LMM = NExt(Y, K)
-++ LMM.fit(X=W)
+``` Python
+ LMM = NExt(Y, K)
+ LMM.fit(X=W)
+```
 +  **Step 3**: obtain the results as
 ++ p = LMM.association()
 ++ beta = LMM.beta
