@@ -1,7 +1,7 @@
 ## NExt-LMM.py
 
 This module contains two class: the HODLR Inverse and NExt-LMM.
-*class* **HInverse**(X = None, block_min = 3)
++ *class* **HInverse**(X = None, block_min = 3)
 + *class* **NExt**(Y = None, S_inv = [])
 
 ### Parameters
