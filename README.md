@@ -12,7 +12,7 @@ Zhibin Pu, Shijia Wang and Shufei Ge, "A near-exact linear mixed model for genom
 ## Installation
 + Download the directory directly and put it into your working path.
 
-## LICENSES
+## Licenses
 
 SCLMM v1.0. Copyright (c) 2024. Zhibin Pu and Shufei Ge.
 
