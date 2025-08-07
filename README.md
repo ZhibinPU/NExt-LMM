@@ -1,12 +1,12 @@
 # A near-exact linear mixed model for genome-wide association studies
 
-We have developed the near-exact linear mixed model (NExt-LMM), a novel LMM framework that exploits the inherent low-rank structure of the Genetic Similarity Matrix (GSM) with the Hierarchical Off-Diagonal Low-Rank (HODLR) format and overcomes critical computational bottlenecks in genome-wide association studies. The file contains code which implements this method described in Zhibin Pu, Shijia Wang and Shufei Ge, "A near-exact linear mixed model for genome-wide association studies", 2025. The code files are released under the open source BSD 2-clause license. 
+We have developed the near-exact linear mixed model (NExt-LMM), a novel LMM framework that exploits the inherent low-rank structure of the Genetic Similarity Matrix (GSM) with the Hierarchical Off-Diagonal Low-Rank (HODLR) format and overcomes critical computational bottlenecks in genome-wide association studies. The file contains code which implements this method described in Zhibin Pu, Shufei Ge and Shijia Wang, "A near-exact linear mixed model for genome-wide association studies", 2025. The code files are released under the open source BSD 2-clause license. 
 
 ## Citation
 If you use the code (partial or all) in your research, please cite the following manuscript:
 
 ```diff
-Zhibin Pu, Shijia Wang and Shufei Ge, "A near-exact linear mixed model for genome-wide association studies", 2025.
+Zhibin Pu, Shufei Ge and Shijia Wang, "A near-exact linear mixed model for genome-wide association studies", 2025.
 ```
 
 ## Installation
